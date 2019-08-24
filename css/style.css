@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #BDBDBD;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.jumbotron {
+    margin-top: 30px;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+
+img {
+    width: 100%;
+    padding: 20px 0;
+} 
+
+.img-poster {
+    height: 360px;
+}
+
+.search-title {
+    margin: 15px;
+       
+        
+}
+
+div.spiner {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 3px dashed;
+    border-radius: 50%;
+    border-top-color: #ff6600;
+    border-right-color: #cc33cc;
+    border-bottom-color: cadetblue; 
+    border-left-color:  #0099cc;
+    animation: spiner 500ms infinite linear;
+}
+
+@keyframes spiner {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.movie__Release__Date {
+    font-size: 18px;
+    font-weight: bold; 
+    
+}
+
+a.linck {
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    color: #626262;
+}
+
+a.linck:hover {
+    border-bottom: 3px solid #228B22;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD700), to(#2c2e78));
+    background-image: linear-gradient(to bottom, #FFD700 0%, #2c2e78 100%);
+    background-size: 100% 100%;
+} 
+
+
